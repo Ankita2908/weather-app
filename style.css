@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* body */
+.weather_mainDiv {
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* main outer div */
+.weather__outerDiv {
+    width: 500px;
+    height: 600px;
+    background: #e1ecff;
+    background-image: linear-gradient(to left bottom, #d6eef6, #dff0fa, #e7f3fc, #eff6fe, #f6f9ff);
+    background-repeat: no-repeat;
+    background-position: cover;
+    border-radius: 50px;
+    box-shadow: 1px 1px 14px rgb(162, 159, 239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input_Div {
+    text-align: center;
+}
+
+/* input field */
+#inputField {
+    border: none;
+    width: 300px;
+    height: 50px;
+    background-color: #f4fcff;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #009dd2;
+    font-weight: 500;
+    padding-left: 30px;
+    border-bottom: 1px solid #87e1ff;
+}
+
+#inputField::placeholder {
+    color: #009dd2;
+    font-weight: 500;
+}
+
+/* button */
+#search-button {
+    background-color: #fff;
+    padding: 8px 25px;
+    color: #009dd2;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #01a8e0;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #009dd2;
+    color: #fff;
+}
+
+#location {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: #009dd2;
+}
+
+#temp {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#temp-value {
+    font-size: 25px;
+}
+
+#tempunit {
+    font-size: 20px;
+}
+
+#climate {
+    color: #009dd2;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+}
